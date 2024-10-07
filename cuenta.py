@@ -11,3 +11,7 @@ class Cuenta():
 
     def __str__(self):
         return f"La cuenta {sefl.numero} tiene {self.saldo} euros"
+
+    def __repr__(self):
+        return f"La cuenta {sefl.numero} tiene {self.saldo} euros"
+
